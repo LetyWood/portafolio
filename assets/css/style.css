@@ -1,0 +1,149 @@
+:root
+{
+    --background-color: #FFFFFF;
+    --background-color-perfil: #F7F7F7;
+    --primary-color: #F46D5C;
+    --hover-color: #fc6f5c;
+    --hover-color: #F34329;
+    --text-color-general: #7D7D7D;
+    --text-color: #7D7D7D;
+    --icon-color: #333333;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+}
+.items__header
+{
+    display: flex;
+    flex-direction: column;
+}
+.header 
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--background-color);
+    height: 30vh;
+    width: 100%;
+}
+.items__header
+{
+    width: 90%;
+}
+.botones__header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.botones__header a:first-child
+{
+    background-color: var(--primary-color);
+}
+.botones__header a
+{
+    border: 1px solid var(--primary-color);
+    padding:.6em 2.1em;
+    width: 15%;
+    text-align: center;
+}
+.botones__header a:hover 
+{
+    background-color: var(--hover-color);
+}
+
+.my__inf
+{
+    border: 1px solid blue;
+    padding: 1rem 5rem;
+    background-color: var(--background-color-perfil);
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+.items__img
+{
+    background-color: aqua;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menina
+{
+    width: 350px;
+    margin: 0px auto ;
+}
+.redes
+{
+    background-color: var(--background-color);
+    padding: 0.750rem 0;
+    margin: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.redes__icon
+{
+    /*width: 2rem;*/
+    width: 40px;
+
+}
+.redes li
+{
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    /*overflow: hidden;*/
+}
+.redes li a
+{
+    background-color: black;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.resume
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    height: 100%;
+    
+}
+.resume__name
+{
+    font-weight: bold;
+    display: flex;
+    justify-items: left;
+    padding: 0.750rem 0.750rem 0;
+}
+.resume__spec
+{
+    color: var(--text-color);
+    padding: 0 1rem;
+    font-size: 0.750rem;
+}
+.resume p
+{
+    font-size: 1rem;
+    margin: 0.7rem;
+}
